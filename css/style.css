@@ -1,0 +1,80 @@
+nav ul a,
+nav .brand-logo {
+  color: #b3d5db;
+}
+
+nav>img {
+  height: 100%;
+}
+
+.pai {
+  height: 40px;position:absolute;right:0;top:0;
+  align-content: center;
+  vertical-align: middle;
+  height: 100%;
+}
+.filho img {
+  height: 40px;
+  display: inline-block;
+  height: 80%;
+  vertical-align: middle;
+}
+
+p {
+  line-height: 2rem;
+  color: #8d8d8d;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 680px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color:#212121;
+}
+
+body{
+  background-color:#343433;
+}
+
+h1, h2, h3, h4, h5{
+  color: white;
+}
+
+.icon{
+  color: #63a89b;
+}
