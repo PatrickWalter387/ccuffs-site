@@ -7,10 +7,22 @@ nav>img {
   height: 100%;
 }
 
+nav.nav-center ul {
+  text-align: center;
+}
+nav.nav-center ul li {
+  display: inline;
+  float: none;
+}
+nav.nav-center ul li a {
+  display: inline-block;
+}
+
 .pai {
   height: 40px;position:absolute;right:0;top:0;
   align-content: center;
   vertical-align: middle;
+  display: inline;
   height: 100%;
 }
 .filho img {
@@ -38,22 +50,6 @@ p {
   .parallax-container .section {
     width: 100%;
   }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
 
 .icon-block {
   padding: 0 15px;

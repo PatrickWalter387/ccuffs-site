@@ -10,17 +10,11 @@
 </head>
 <body>
   <div class="navbar-fixed">
-    <nav style="background-color: #343433">
-      <div class="nav-wrapper container pai">
-        <a class="navbar-brand filho" href="https://cc.uffs.edu.br/">
-          <img src="https://cc.uffs.edu.br/images/logo/CC-logo-com-background.svg" title="Ciência da Computação">
-        </a>
-        
-        <ul class="right hide-on-med-and-down filho">
+    <nav style="background-color: #343433" class="nav-center">
+      <div class="nav-wrapper container pai">   
+        <ul class="hide-on-med-and-down filho">
           <li>
-            <a href="https://github.com/PatrickWalter387">
-              <img style="height:auto; border-radius: 50%; border: 2px solid #63a89b;" alt="" width="50" height="50" src="https://avatars.githubusercontent.com/u/46614552?v=4">
-            </a>
+              <img style="height:auto; border-radius: 50%; border: 2px solid #9b9a90;" alt="" width="100" height="100" src="https://avatars.githubusercontent.com/u/46614552?v=4">
           </li>
         </ul>
       </div>
@@ -43,14 +37,11 @@
 
   <div class="container">
     <div class="section">
-
-      <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center"><i class="material-icons icon">flash_on</i></h2>
             <h5 class="center">Alta produtividade (ou não)</h5>
-
             <p class="light">Faço as coisas com carinho e calma, programar é uma arte, desenvolvimento rushado cedo ou tarde vai acarretar em problemas. Dito isso, tenho responsabilidade com prazos, o que te informei será cumprido.</p>
           </div>
         </div>
@@ -59,7 +50,6 @@
           <div class="icon-block">
             <h2 class="center"><i class="material-icons icon">attach_money</i></h2>
             <h5 class="center">Preço baixo (bom a escolha é sua)</h5>
-
             <p class="light">Se trata de 6 pontos, performace, robustes, preço baixo, em curto tempo, escalabilidade e aparencia. Bom você pode escolher 3 dentre qualquer um, porem escolha preço baixo ou em curto tempo e estará jogando fora todo o resto. PS: E se escolher aparencia acho que está no lugar errado.</p>
           </div>
         </div>
@@ -68,7 +58,6 @@
           <div class="icon-block">
             <h2 class="center"><i class="material-icons icon">group</i></h2>
             <h5 class="center">Trabalho em equipe</h5>
-
             <p class="light">Bom se você ja tem seu desenvolvedor frontend, e precisa de alguem apenas para lidar com o backend, bom agora está no lugar certo, posso integrar uma equipe grande e me dar bem com todos, ou mesmo uma divisão 2 pra 1, 2 desenvolvedores um trabalhando com back-end (recomendo que este seja eu) e outro com front-end.</p>
           </div>
         </div>
@@ -82,15 +71,12 @@
           <div class="icon-block">
             <h2 class="center"><i class="material-icons icon">book</i></h2>
             <h5 class="center">Dedicação e rápido aprendizado (Agora SIM!)</h5>
-
             <p class="light">Antes falei que desenvolvimento rushado não leva a nada, mas falei algo de aprendizado rapido? Este não tem problema algum, sou completamente proativo e dedicado, sempre disposto a aprender, e virar madrugadas se preciso.</p>
           </div>
         </div>
       </div>
-
     </div>
   </div>
-
 
   <div class="parallax-container valign-wrapper">
     <div class="parallax"><img src="background2.JPG" alt="Unsplashed background img 2"></div>
@@ -98,44 +84,22 @@
 
   <div class="container">
     <div class="section">
-
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Minhas Afinidades</h4>
-          <p class="left-align light">Atualmente sou dev web fullstack com ASPNET e VueJS, objetivo de vida é sobreviver sem encostar no front, minhas tecnologias preferidas são aspnet - C# e nodejs - JS, adoro trabalhar com APIs REST, sou um cara normal, que gosta de tecnologia e outras nerdices.</p>
+          <p class="left-align light">Atualmente sou dev web fullstack com ASPNET e VueJS na INFOGEN, objetivo de vida é sobreviver sem encostar no front, minhas tecnologias preferidas são aspnet - C# e nodejs - JS, adoro trabalhar com APIs REST, sou um cara normal, que gosta de tecnologia.</p>
         </div>
       </div>
-
     </div>
   </div>
 
-  <footer class="page-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Entrar em contato</h5>
-          <p class="grey-text text-lighten-4">Bom basta me chamar em qualquer lugar, nas minhas redes sociais, por ligação, carta, pombo correio, se me ver na rua grita, tanto faz.</p>
-        </div>
-        <div class="col l3 s12 right">
-          <h5 class="white-text">Redes Sociais</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Facebook</a></li>
-            <li><a class="white-text" href="#!">Instagram</a></li>
-            <li><a class="white-text" href="#!">Linkedin</a></li>
-            <li><a class="white-text" href="#!">Whatsapp</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="footer-copyright"></div>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script>
-    $('.sidenav').sidenav();
-    $('.parallax').parallax();
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.parallax');
+      var instances = M.Parallax.init(elems, 0);
+    });
   </script>
   </body>
 </html>
